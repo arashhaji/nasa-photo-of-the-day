@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ImgInfo from "./ImgInfo";
 
+
+
 const ImgCard = () => {
     const [title, setTitle] = useState();
     const [date, setDate] = useState();
